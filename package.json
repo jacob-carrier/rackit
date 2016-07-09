@@ -1,0 +1,12 @@
+{
+	"name": "rackit",
+	"description": "Rack It Test API",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.x",
+		"mongoose": "3.8.4",
+		"ejs": "0.8.5",
+		"sha1": "1.x"
+	}
+}

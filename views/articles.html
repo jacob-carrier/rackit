@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+		<title>Clothing Articles</title>
+	</head>
+	<body>
+			<form action="/api/articles/upload" method="post" role="form" enctype="multipart/form-data">
+				<div class="form-group">
+					<label for="username">Image: </label>
+					<input type="file" class="form-control" name="image">
+					<input type="hidden" name="_id" value="52e8ee779b57b52a04fa9fdf">
+				</div>
+				<button class="btn btn-lg btn-primary" type="submit">Upload</button>
+			</form>
+	</body>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</html>

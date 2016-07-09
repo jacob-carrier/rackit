@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'show', 'fs' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose url raw fs
+5 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+6 verbose url resolved https://registry.npmjs.org/fs
+7 info trying registry request attempt 1 at 08:48:52
+8 http GET https://registry.npmjs.org/fs
+9 http 404 https://registry.npmjs.org/fs
+10 silly registry.get cb [ 404,
+10 silly registry.get   { date: 'Wed, 12 Feb 2014 19:49:03 GMT',
+10 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+10 silly registry.get     'content-type': 'application/json',
+10 silly registry.get     'accept-ranges': 'bytes',
+10 silly registry.get     via: '1.1 varnish',
+10 silly registry.get     'cache-control': 'max-age=0',
+10 silly registry.get     'content-length': '52',
+10 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-d97-DAL',
+10 silly registry.get     'x-cache': 'MISS, MISS',
+10 silly registry.get     'x-cache-hits': '0, 0',
+10 silly registry.get     'x-timer': 'S1392234543.755569696,VS0,VS19,VE35,VE50',
+10 silly registry.get     'keep-alive': 'timeout=10, max=50',
+10 silly registry.get     connection: 'Keep-Alive' } ]
+11 error 404 'fs' is not in the npm registry.
+11 error 404 You should bug the author to publish it
+11 error 404
+11 error 404 Note that you can also install from a
+11 error 404 tarball, folder, or http url, or git url.
+12 error System Darwin 13.0.0
+13 error command "node" "/usr/local/bin/npm" "show" "fs"
+14 error cwd /Users/jacoblc/Desktop/rackit
+15 error node -v v0.10.24
+16 error npm -v 1.3.21
+17 error code E404
+18 verbose exit [ 1, true ]
